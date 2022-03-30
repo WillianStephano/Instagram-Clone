@@ -1,0 +1,143 @@
+body{
+   background-color: #fafafa;
+}
+
+.conteudo_principal .container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 2% 0;
+   font-family: 'nunito', sans-serif;
+}
+
+.secao_banner{
+   width: 25%;
+}
+
+.secao_form{
+  width: 45%;
+  height: min-content;
+}
+
+.secao_form .container{
+   display: flex;
+   flex-direction: column;
+}
+
+.titulo_form{
+   font-family: 'Grand Hotel', cursive;
+   font-size: 54px;
+   color: #222222;
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   row-gap: 10px;
+   border: 1px solid #c4c4c4;
+   padding: 6% 5.5% 4%;
+   width: 50%;
+   background-color: #ffffff;
+}
+
+.campo_txt{
+   height: 35px;
+   border: none;
+   outline: 1px solid #dbdbdb;
+   background-color: #fafafa;
+   font-size: 11px;
+   font-weight: 100;
+   letter-spacing: 0.5px;
+}
+
+.bt_login{
+   height: 30px;
+   background-color: #B2DFFC;
+   border: none;
+   color: #ffffff;
+   font-weight: 700;
+   font-size: 14px;
+   border-radius: 4px;
+}
+
+.area_outro_login{
+   border-top: 1px solid #dadada;
+   font-family: 'nunito', sans-serif;
+   padding: 10% 10% 0;
+}
+
+.titulo_outro_login{
+   text-align: center;
+   width: 40px;
+   font-size: 13px;
+   color: #888888;
+   font-weight: 600;
+}
+
+.login_facebook{
+   text-decoration: none;
+   color: #385185;
+   font-weight: 600;
+   font-family: 'nunito', sans-serif;
+   font-size: 14px;
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+}
+
+.icon_facebook{
+   width: 15px;
+   height: 14px;
+   vertical-align: middle;
+}
+
+.esqueceu_senha{
+   text-decoration: none;
+   font-size: 13px;
+   color: #00376b;
+   width: 100%;
+   display: inline-block;
+   text-align: center;
+   margin-top: 10%;
+}
+
+.nova_conta{
+   border: 1px solid #c4c4c4;
+   width: 50%;
+   margin-top: 5%;
+   padding: 4% 5%;
+   background-color: #ffffff;
+}
+
+.txt_nova_conta{
+   text-align: center;
+   font-size: 14px;
+}
+
+.link_criar_conta{
+   text-decoration: none;
+   color: #0095f6;
+   font-weight: 600;
+}
+
+.app{
+   margin-top: 5%;
+}
+
+.titulo_app{
+   text-align: center;
+   font-size: 14px;
+   margin-bottom: 5%;
+}
+
+.bt_apple{
+   height:min-content;
+   border: none;
+   background-color: #ffffff;
+}
+
+.bt_apple img{
+   width: 130px;
+}
