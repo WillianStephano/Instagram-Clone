@@ -11,17 +11,28 @@ body{
 }
 
 .secao_banner{
-   width: 25%;
+   width: 35%;
+   background-image: url(../Conteudo/phone.png);
+   background-size: cover;
+   height: 630px;
+   margin-right: 2%;
+}
+
+.slide img{
+   position: absolute;
+   top: 55px;
+   left: 416px;
 }
 
 .secao_form{
-  width: 45%;
-  height: min-content;
+   width: 25%;
+   height: min-content;
 }
 
 .secao_form .container{
    display: flex;
    flex-direction: column;
+   width: 100%;
 }
 
 .titulo_form{
@@ -38,7 +49,7 @@ body{
    row-gap: 10px;
    border: 1px solid #c4c4c4;
    padding: 6% 5.5% 4%;
-   width: 50%;
+   width: 100%;
    background-color: #ffffff;
 }
 
@@ -105,7 +116,7 @@ body{
 
 .nova_conta{
    border: 1px solid #c4c4c4;
-   width: 50%;
+   width: 100%;
    margin-top: 5%;
    padding: 4% 5%;
    background-color: #ffffff;
