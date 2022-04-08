@@ -65,6 +65,10 @@ body{
    width: 80%;
 }
 
+.campo_txt:focus::placeholder{
+   color: transparent;
+}
+
 .bt_login{
    height: 30px;
    background-color: #B2DFFC;

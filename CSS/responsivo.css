@@ -58,31 +58,17 @@
 }
 
 @media screen and (max-width:1200px) {
+
+   .conteudo_principal .container{
+      justify-content: space-evenly;
+   }
+   
    .secao_banner{
-      display: none;
-   }
-   
-   .conteudo_principal .container {
-      align-items: center;
-      width: 100%;
-   }
-   
-   .secao_form{
-      width: 100%;
-   }
-   
-   .form, .nova_conta{
-      border: none;
-      background-color: #FAFAFA;
-      padding: 0;
-   }
-   
-   .campo_txt, .bt_login{
-      width: 70%;
+      width: 45%;
    }
 
-   .app{
-      margin-top: 10%;
-   }   
-
+   .slide img{
+      top: 43px;
+      left: 244px;
+   }
 }
