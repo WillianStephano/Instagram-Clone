@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", function () {
    mostrarImg();
 });
 
-//
+//Mostra uma imagem na tela com base no id do objeto criado
 function mostrarImg() {
    let item = colecaoImg[imgAtual];
    img.src = item.img;
@@ -40,5 +40,5 @@ function proximaImg() {
    mostrarImg();
 }
 
-//
+//Chama a funcao de troca de img a cada 1500ms
 setInterval(proximaImg, 1500);
